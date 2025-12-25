@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="calculator">
+            <div class="display-container">
+                <input type="text" id="display" readonly value="0">
+            </div>
+
+            <div class="buttons-grid">
+                <button id="btn-clear" class="btn btn-clear">C</button>
+                <button id="btn-backspace" class="btn btn-operator">⌫</button>
+                <button id="btn-divide" class="btn btn-operator">÷</button>
+                <button id="btn-percentage" class="btn btn-special">%</button>
+
+                <button id="btn-7" class="btn btn-number">7</button>
+                <button id="btn-8" class="btn btn-number">8</button>
+                <button id="btn-9" class="btn btn-number">9</button>
+                <button id="btn-multiply" class="btn btn-operator">×</button>
+
+                <button id="btn-4" class="btn btn-number">4</button>
+                <button id="btn-5" class="btn btn-number">5</button>
+                <button id="btn-6" class="btn btn-number">6</button>
+                <button id="btn-subtract" class="btn btn-operator">-</button>
+
+                <button id="btn-1" class="btn btn-number">1</button>
+                <button id="btn-2" class="btn btn-number">2</button>
+                <button id="btn-3" class="btn btn-number">3</button>
+                <button id="btn-add" class="btn btn-operator">+</button>
+
+                <button id="btn-square" class="btn btn-special">x²</button>
+                <button id="btn-0" class="btn btn-number">0</button>
+                <button id="btn-decimal" class="btn btn-number">.</button>
+                <button id="btn-equals" class="btn btn-equals">=</button>
+
+                <button id="btn-sqrt" class="btn btn-special btn-wide">√</button>
+            </div>
+
+            <div class="keyboard-hint">
+                Keyboard supported: Numbers, +, -, *, /, Enter, Backspace, Esc, %
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
