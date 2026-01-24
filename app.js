@@ -143,6 +143,7 @@ btn5.addEventListener('click', function() { inputNumber('5'); });
 btn6.addEventListener('click', function() { inputNumber('6'); });
 btn7.addEventListener('click', function() { inputNumber('7'); });
 btn8.addEventListener('click', function() { inputNumber('8'); });
+
 btn9.addEventListener('click', function() { inputNumber('9'); });
 
 btnAdd.addEventListener('click', function() { inputOperator('+'); });
